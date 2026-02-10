@@ -1,0 +1,69 @@
+/* Custom Styles for Kirana PC */
+
+:root {
+    --primary: #3b82f6;
+    --primary-dark: #2563eb;
+    --bg-dark: #0a0a0c;
+    --bg-glass: rgba(255, 255, 255, 0.05);
+}
+
+* {
+    scroll-behavior: smooth;
+    selection-background: var(--primary);
+    selection-color: white;
+}
+
+body {
+    background-color: var(--bg-dark);
+}
+
+/* Animations */
+@keyframes bounce-slow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.animate-bounce-slow {
+    animation: bounce-slow 4s ease-in-out infinite;
+}
+
+/* Custom Nav Scroll Effect */
+nav.scrolled {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background: rgba(10, 10, 12, 0.9);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Glassmorphism improvements */
+.glass {
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+/* Product Card Hover */
+.product-card-img-zoom:hover img {
+    transform: scale(1.1);
+}
+
+/* Glow Effect */
+.glow-on-hover:hover {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+}

@@ -1,0 +1,28 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <!-- Hexagon Background -->
+    <path d="M250 50 L423.2 150 L423.2 350 L250 450 L76.8 350 L76.8 150 Z" fill="none" stroke="url(#grad)" stroke-width="15" stroke-linejoin="round" />
+    
+    <!-- Circuit Accents -->
+    <circle cx="250" cy="50" r="8" fill="url(#grad)" />
+    <circle cx="423" cy="150" r="8" fill="url(#grad)" />
+    <circle cx="76" cy="350" r="8" fill="url(#grad)" />
+    
+    <!-- Stylized S (Left) -->
+    <path d="M210 180 L140 180 L140 240 L210 240 L210 320 L140 320" fill="none" stroke="#3b82f6" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Stylized S (Right) -->
+    <path d="M360 180 L290 180 L290 240 L360 240 L360 320 L290 320" fill="none" stroke="#10b981" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Center Arrow -->
+    <path d="M230 230 L280 250 L230 270 Z" fill="url(#grad)" />
+    
+    <!-- Support Lines -->
+    <line x1="250" y1="100" x2="250" y2="150" stroke="url(#grad)" stroke-width="5" />
+    <line x1="250" y1="350" x2="250" y2="400" stroke="url(#grad)" stroke-width="5" />
+</svg>
